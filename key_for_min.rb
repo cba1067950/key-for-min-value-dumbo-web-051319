@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   
   position = 0
   minimum = valueArray[0]
-  minArray.each do |num|
+  valueArray.each do |num|
     if num < minimum
       minimum = num
       position += 1
