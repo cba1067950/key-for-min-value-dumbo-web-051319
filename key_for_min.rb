@@ -4,8 +4,8 @@
 #[500, 2, 1]
 def key_for_min_value(name_hash)
   minimum = 0 
-  
-  name_hash.each 
+  name_hash.each do |key, value|
+    if value < 
   
   #minArray = []
   #minArray = name_hash.collect { |key, value| value }
