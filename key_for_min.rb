@@ -12,6 +12,7 @@ def key_for_min_value(name_hash)
       largest = value 
     else
       smallest = value
+    end
   end
   smallest
 end
