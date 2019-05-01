@@ -10,8 +10,10 @@ def key_for_min_value(name_hash)
   minArray.each do |num|
     if num < minimum
       minimum = num
+      puts minimum
+    else
+      puts "Not min"
     end
-    puts minimum
   end
   minimum
 end
