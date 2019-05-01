@@ -3,6 +3,7 @@
 #[10, 50, 17]
 #[500, 2, 1]
 def key_for_min_value(name_hash)
+  minimum = ""
   minimum = name_hash[:key1]
   
   puts minimum
