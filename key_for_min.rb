@@ -4,12 +4,14 @@
 def key_for_min_value(name_hash)
   minArray = []
   smallest = 0
+  largest = 0
   check = 0
   minArray = name_hash.collect { |key, value| value }
   minArray.each do |value|
     if value > smallest
-      smallest = value 
-    end
+      largest = value 
+    else
+      smallest = value
   end
   smallest
 end
