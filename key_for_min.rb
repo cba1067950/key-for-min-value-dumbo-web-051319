@@ -3,11 +3,13 @@
 #[10, 50, 17]
 #[500, 2, 1]
 def key_for_min_value(name_hash)
-  minArray = []
-  minArray = name_hash.collect { |key, value| value }
+  valueArray = []
+  valueArray = name_hash.collect { |key, value| value }
+  keyArray = []
+  keyArray = name_hash.collect { |key, value| key}
   
   position = 0
-  minimum = minArray[0]
+  minimum = valueArray[0]
   minArray.each do |num|
     if num < minimum
       minimum = num
@@ -15,5 +17,5 @@ def key_for_min_value(name_hash)
     end
   end
   
-  position
+  keyArray[position]
 end
