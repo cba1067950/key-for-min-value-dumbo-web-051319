@@ -6,12 +6,13 @@ def key_for_min_value(name_hash)
   minArray = []
   minArray = name_hash.collect { |key, value| value }
   
-  position = ""
+  position = 0
   minimum = minArray[0]
   minArray.each do |num|
     if num < minimum
       minimum = num
     end
+    position += 1
   end
   
   position
