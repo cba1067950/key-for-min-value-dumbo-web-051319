@@ -15,7 +15,5 @@ def key_for_min_value(name_hash)
       puts "Not min"
     end
   end
-  puts "minimum final" 
-  puts minimum
   minimum
 end
