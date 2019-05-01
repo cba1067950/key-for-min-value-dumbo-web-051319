@@ -3,7 +3,7 @@
 #[10, 50, 17]
 #[500, 2, 1]
 def key_for_min_value(name_hash)
-  minimum = 0 
+  minimum = name_hash["key"]
   name_hash.each do |key, value|
   
   #minArray = []
