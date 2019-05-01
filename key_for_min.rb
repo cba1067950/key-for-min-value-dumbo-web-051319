@@ -8,10 +8,9 @@ def key_for_min_value(name_hash)
   
   position = ""
   minimum = minArray[0]
-  minArray.each do |name, num|
+  minArray.each do |num|
     if num < minimum
       minimum = num
-      position = name
     end
   end
   
