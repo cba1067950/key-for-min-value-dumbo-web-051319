@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   smallest = 0
   check = 0
   minArray = name_hash.collect { |key, value| value }
+  puts minArray 
   minArray.each do |value|
-    puts value
   end
 end
